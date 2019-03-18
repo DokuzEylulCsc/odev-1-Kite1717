@@ -4,12 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F4C376C1-BCAF-4D15-8875-024084444300}</ProjectGuid>
+    <ProjectGuid>{DB9A4185-39F9-4712-AEBC-60BD663DBD25}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Odev_1</RootNamespace>
-    <AssemblyName>Odev_1</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RootNamespace>Odev1._0</RootNamespace>
+    <AssemblyName>Odev1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -38,18 +39,18 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Asker.cs" />
-    <Compile Include="Bolge.cs" />
-    <Compile Include="Er.cs" />
-    <Compile Include="Ermeydani.cs" />
+    <Compile Include="ErMeydanı.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Takim.cs" />
-    <Compile Include="Tegmen.cs" />
-    <Compile Include="Yuzbasi.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace Odev_1
+namespace Odev1._0
 {
     class Program
     {
         static void Main(string[] args)
         {
-         /*
-          Örnek olması açısında iskelet kod hazır olarak verilmiştir. İmplementasyonunuz bunun üzerinden gerçekleştiriniz.
-         */
-
+            ErMeydanı meydan = new ErMeydanı();
+            meydan.startPlaying();
+            Console.ReadKey();
+            
         }
     }
 }
